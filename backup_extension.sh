@@ -18,5 +18,5 @@ CURRENT_DATETIME=$(date "+%Y-%m-%d %H:%M:%S")
 # Commit and push to git
 git add .
 git commit -m "Created extension backup on $CURRENT_DATETIME"
-git push origin master
+git push origin HEAD:master
 echo "Backup completed at $CURRENT_DATETIME"
